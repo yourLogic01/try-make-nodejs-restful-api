@@ -1,0 +1,44 @@
+{
+  "name": "nodejs-restful-api",
+  "version": "1.0.0",
+  "description": "belajar nodejs restful api",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourLogic01/try-make-nodejs-restful-api.git"
+  },
+  "author": "Asyifa Maulana",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yourLogic01/try-make-nodejs-restful-api/issues"
+  },
+  "homepage": "https://github.com/yourLogic01/try-make-nodejs-restful-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/supertest": "^6.0.3",
+    "@types/uuid": "^10.0.0",
+    "babel-jest": "^30.0.2",
+    "jest": "^30.0.3",
+    "prisma": "^6.10.1",
+    "supertest": "^7.1.1"
+  }
+}
