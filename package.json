@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/yourLogic01/try-make-nodejs-restful-api#readme",
   "dependencies": {
+    "@prisma/client": "^6.10.1",
     "bcrypt": "^6.0.0",
     "express": "^5.1.0",
     "joi": "^17.13.3",
